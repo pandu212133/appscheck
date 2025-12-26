@@ -1,0 +1,42 @@
+:root {
+  /* Core HSL Values */
+  --hue-primary: 260;  /* Deep Violet */
+  --hue-secondary: 190; /* Cyan */
+  --hue-surface: 240;  /* Dark Blue-Grey */
+
+  /* Colors */
+  --color-bg: hsl(var(--hue-surface), 20%, 8%);
+  --color-text: hsl(var(--hue-surface), 10%, 95%);
+  --color-text-dim: hsl(var(--hue-surface), 10%, 65%);
+  
+  --color-primary: hsl(var(--hue-primary), 80%, 65%);
+  --color-primary-glow: hsl(var(--hue-primary), 80%, 65%, 0.4);
+  
+  --color-secondary: hsl(var(--hue-secondary), 80%, 60%);
+  
+  /* Glassmorphism */
+  --glass-bg: rgba(255, 255, 255, 0.05);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-highlight: rgba(255, 255, 255, 0.2);
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+
+  /* Fonts */
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+@media (prefers-color-scheme: light) {
+  /* Optional Light Mode Overrides (if we want to support it later, but focusing on Dark/Glass for now) */
+}
