@@ -12,7 +12,7 @@ Since you don't have Android Studio installed locally, I have configured this pr
    Open a terminal in this folder (`/Users/sateeshkumarpittala/Desktop/apps/time-management-app`) and run:
    
    ```bash
-   git remote add origin https://github.com/YOUR_USERNAME/time-management-app.git
+   git remote add origin https://github.com/pandu212133/appscheck.git
    git branch -M main
    git push -u origin main
    ```
